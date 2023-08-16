@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.button {
+  width: 100px;
+
+  padding: 8px;
+  margin-top: 12px;
+
+  background-color: #1e9c99;
+
+  color: white;
+  border-radius: 4px;;
+
+  border: 0;
+  box-shadow: #0002 2px 2px 6px 2px;
+}
+
+.clock {
+  font-family: 'Trebuchet MS';
+  font-size: 24px;
+}
+
